@@ -45,7 +45,7 @@ func (d *Driver) GetCreateFlags() []mcnflag.Flag {
 	return []mcnflag.Flag{
 		mcnflag.StringFlag{
 			EnvVar: "EXOSCALE_ENDPOINT",
-			Name:   "exoscale-url",
+			Name:   "exoscale-endpoint",
 			Usage:  "exoscale API endpoint",
 		},
 		mcnflag.StringFlag{
